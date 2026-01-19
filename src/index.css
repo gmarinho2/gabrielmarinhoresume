@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
+:root {
+  /* alterado para slate-100 para um cinza fosco perceptível */
+  --bg-app: #f1f5f9;         
+  --text-main: #0f172a;      
+  --text-muted: #475569;     
+  /* mantido branco para que os cards "saltem" do fundo cinza */
+  --card-bg: #ffffff;        
+  --card-border: #e2e8f0;    
+  --dot-color: #cbd5e1;      
+  --ring-offset: #f1f5f9;
+  --pill-bg: #e2e8f0;        
+  --pill-text: #0f172a;      
+}
+
+.dark {
+  --bg-app: #020617;         
+  --text-main: #f8fafc;      
+  --text-muted: #94a3b8;     
+  --card-bg: #0f172a;        
+  --card-border: #1e293b;    
+  --dot-color: #1e293b;
+  --ring-offset: #020617;
+  --pill-bg: #1e293b;        
+  --pill-text: #f8fafc;      
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  background-image: radial-gradient(circle, var(--dot-color) 1px, transparent 1px);
+  background-size: 32px 32px;
+  @apply antialiased transition-colors duration-300 min-h-screen font-sans;
+}
+
+.theme-card {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+}
+
+.theme-text-main { color: var(--text-main) !important; }
+.theme-text-muted { color: var(--text-muted) !important; }
+
+.theme-pill {
+  background-color: var(--pill-bg) !important;
+  color: var(--pill-text) !important;
+}
