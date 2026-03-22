@@ -31,7 +31,7 @@ export const content = {
         role: "Engenheiro de Machine Learning",
         period: "Janeiro 2026 - Março 2026",
         points: [
-          "Desenvolvi um pipeline de Visão Computacional em tempo real para detecção e rastreamento de objetos em vídeo (720p) via protocolos RTSP/HLS.",
+          "Desenvolvi um pipeline de Visão Computacional em tempo real para detecção e rastreamento de objetos em vídeo.",
           "Implementei algoritmos de rastreamento de alta precisão com foco em consistência temporal e persistência de ID em ambientes externos dinâmicos.",
           "Realizei a curadoria e o gerenciamento de datasets anotados em larga escala para garantir a robustez do modelo em diversas condições ambientais.",
           "Implementei lógica de visualização otimizada para bounding boxes e trajetórias, especializada no monitoramento de objetos a longo prazo.",
@@ -149,7 +149,7 @@ export const content = {
         role: "Machine Learning Engineer",
         period: "January 2026 - March 2026",
         points: [
-          "Engineered a real-time Computer Vision pipeline for object detection and tracking in high-resolution (720p) video streams using RTSP/HLS protocols.",
+          "Engineered a real-time Computer Vision pipeline for object detection and tracking in video streams.",
           "Developed high-precision tracking algorithms focused on temporal consistency and ID persistence for dynamic outdoor environments.",
           "Curated and managed large-scale annotated datasets with balanced distributions to ensure model robustness across diverse environmental conditions.",
           "Implemented optimized visualization logic for bounding boxes and trajectories, specialized in long-term object monitoring.",
