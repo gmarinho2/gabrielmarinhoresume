@@ -3,7 +3,7 @@ export const content = {
     themeToggle: { light: "Claro", dark: "Escuro" },
     personalInfo: {
       name: "GABRIEL MARINHO DE SOUZA",
-      role: "Ciência de Dados & Engenharia de IA",
+      role: "Machine Learning & Engenharia de IA",
       summary: "Cientista da Computação com especialização em Inteligência Artificial e Ciência de Dados. Possuo sólido conhecimento em engenharia de software vindo da minha formação e experiência na IBM Research. Minha atuação foca em unir modelagem estatística à engenharia de sistemas, com experiência prática em Machine Learning, pipelines RAG e otimização de inferência.",
       contact: [
         { label: "Github", link: "https://github.com/gmarinho2", type: "github" },
@@ -14,9 +14,33 @@ export const content = {
     experienceTitle: "Experiência Profissional",
     experiences: [
       {
+        company: "M3 Partners",
+        role: "Engenheiro de IA",
+        period: "Janeiro 2026 - Presente",
+        points: [
+          "Membro do time Watsonx Inference, implementando abordagens de inferência para o chip Spyre.",
+          "Desenvolvimento de engines de inferência de alto throughput para minimizar latência em produção.",
+          "Gerenciamento de aplicações cloud-native com Kubernetes, cuidando de pods e recursos.",
+          "Arquitetura de pipeline RAG ponta a ponta com ingestão, chunking e banco de dados vetorial.",
+          "Implementação de suítes de testes End-to-End (E2E) e análise estatística de benchmarks."
+        ]
+      },
+      {
+        company: "Surfconnect (Contrato)",
+        role: "Engenheiro de Machine Learning", 
+        period: "Janeiro 2026 - Março 2026", 
+        points: [
+          "Desenvolvi um pipeline de Visão Computacional em tempo real para detecção e rastreamento de objetos em vídeo.", 
+          "Implementei algoritmos de rastreamento de alta precisão com foco em consistência temporal e persistência de ID em ambientes externos dinâmicos.", 
+          "Realizei a curadoria e o gerenciamento de datasets anotados em larga escala para garantir a robustez do modelo em diversas condições ambientais.",
+          "Implementei lógica de visualização otimizada para bounding boxes e trajetórias, especializada no monitoramento de objetos a longo prazo.", 
+          "Otimizei pipelines de inferência para alto desempenho em hardware limitado apenas por CPU.",
+        ]
+      },  
+      {
         company: "IBM Research",
         role: "Estagiário em Engenharia de Software e IA",
-        period: "Dezembro 2024 - Presente",
+        period: "Dezembro 2024 - Janeiro 2026",
         points: [
           "Membro do time Watsonx Inference, implementando abordagens de inferência para o chip Spyre.",
           "Desenvolvimento de engines de inferência de alto throughput para minimizar latência em produção.",
@@ -72,7 +96,13 @@ export const content = {
         description: "Sistema de visão computacional para monitoramento inteligente da densidade das praias do Rio de Janeiro. Desenvolvimento da API do backend. Orquestração dos serviços (banco de dados, IA, coleta de dados) usando Docker.",
         result: "No futuro: previsão de lotação de praias",
         link: "https://github.com/gmarinho2"
-      }
+      },
+      {
+        name: "PraiaLivre (Visão Computacional)",
+        description: "Sistema de visão computacional para monitoramento inteligente da densidade das praias do Rio de Janeiro. Desenvolvimento da API do backend. Orquestração dos serviços (banco de dados, IA, coleta de dados) usando Docker.",
+        result: "No futuro: previsão de lotação de praias",
+        link: "https://github.com/gmarinho2"
+      },
     ],
     studiesTitle: "Aprendendo Fazendo",
     studies: [
@@ -103,7 +133,7 @@ export const content = {
     themeToggle: { light: "Light", dark: "Dark" },
     personalInfo: {
       name: "GABRIEL MARINHO DE SOUZA",
-      role: "Data Scientist & AI Engineer",
+      role: "Machine Learning & AI Engineer",
       summary: "Computer Scientist with a specialization in Artificial Intelligence and Data Science. I have solid software engineering knowledge from my academic background and experience at IBM Research. My work focuses on bridging statistical modeling and systems engineering, with practical experience in Machine Learning, RAG pipelines, and inference optimization.",
       contact: [
         { label: "Github", link: "https://github.com/gmarinho2", type: "github" },
@@ -111,12 +141,38 @@ export const content = {
         { label: "Email", link: "mailto:gabrielmarinho910@gmail.com", type: "email" }
       ]
     },
+
     experienceTitle: "Professional Experience",
     experiences: [
       {
+        company: "M3 Partners",
+        role: "AI Engineer",
+        period: "January 2026 - Present",
+        points: [
+          "Architecting and deploying production-grade AI systems on AWS, leveraging SageMaker and Lambda for scalable inference.",
+          "Engineering intelligent document processing workflows utilizing OCR and LLMs (OpenAI/Anthropic) to extract and structure complex data into relational databases.",
+          "Implementing advanced RAG architectures (GraphRAG and LangGraph-based Agentic workflows) integrated via REST APIs for real-time user interaction.",
+          "Optimizing LLM reliability through sophisticated prompt engineering, JSON structured outputs, and programmatic validation layers.",
+          "Designing API integration architecture with automated fallback mechanisms and retry logic to ensure high availability during outages.",
+          "Developing robust data pipelines and AI backends using LangChain, PyTorch, and Pandas to automate complex workflows."
+        ]
+      },
+      {
+        company: "Surfconnect (Contract)",
+        role: "Machine Learning Engineer", 
+        period: "January 2026 - March 2026", 
+        points: [
+          "Engineered a real-time Computer Vision pipeline for object detection and tracking in low resolution video streams.", 
+          "Developed high-precision tracking algorithms focused on temporal consistency and ID persistence for dynamic outdoor environments.", 
+          "Curated and managed large-scale annotated datasets with balanced distributions to ensure model robustness across diverse environmental conditions.", 
+          "Implemented optimized visualization logic for bounding boxes and trajectories, specialized in long-term object monitoring.", 
+          "Optimized inference pipelines for high-throughput processing on resource-constrained CPU-only hardware.", 
+        ]
+      },
+      {
         company: "IBM Research",
         role: "Software Engineering & AI Intern",
-        period: "December 2024 - Present",
+        period: "December 2024 - January 2026",
         points: [
           "Member of the Watsonx Inference team, implementing inference approaches for the Spyre chip.",
           "Development of high-throughput inference engines to minimize production latency.",
