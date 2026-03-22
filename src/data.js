@@ -97,12 +97,6 @@ export const content = {
         result: "No futuro: previsão de lotação de praias",
         link: "https://github.com/gmarinho2"
       },
-      {
-        name: "PraiaLivre (Visão Computacional)",
-        description: "Sistema de visão computacional para monitoramento inteligente da densidade das praias do Rio de Janeiro. Desenvolvimento da API do backend. Orquestração dos serviços (banco de dados, IA, coleta de dados) usando Docker.",
-        result: "No futuro: previsão de lotação de praias",
-        link: "https://github.com/gmarinho2"
-      },
     ],
     studiesTitle: "Aprendendo Fazendo",
     studies: [
