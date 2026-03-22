@@ -11,12 +11,23 @@ import SkillsSection from './components/SkillsSection';
 import LanguagesSection from './components/LanguagesSection';
 
 function App() {
-  const [lang, setLang] = useState('en');
-  const [isDark, setIsDark] = useState(true);
+  const [lang, setLang] = useState(() => {
+    return localStorage.getItem('lang') || 'en';
+  });
+  
+  const [isDark, setIsDark] = useState(() => {
+    const saved = localStorage.getItem('isDark');
+    return saved !== null ? JSON.parse(saved) : true;
+  });
+
   const t = content[lang];
 
   useEffect(() => {
-    // força a classe no html para o tailwind e as variáveis css
+    localStorage.setItem('lang', lang);
+  }, [lang]);
+
+  useEffect(() => {
+    localStorage.setItem('isDark', JSON.stringify(isDark));
     if (isDark) {
       document.documentElement.classList.add('dark');
     } else {

@@ -3,8 +3,8 @@ export const content = {
     themeToggle: { light: "Claro", dark: "Escuro" },
     personalInfo: {
       name: "GABRIEL MARINHO DE SOUZA",
-      role: "Machine Learning & Engenharia de IA",
-      summary: "Cientista da Computação com especialização em Inteligência Artificial e Ciência de Dados. Possuo sólido conhecimento em engenharia de software vindo da minha formação e experiência na IBM Research. Minha atuação foca em unir modelagem estatística à engenharia de sistemas, com experiência prática em Machine Learning, pipelines RAG e otimização de inferência.",
+      role: "Engenharia de IA e Machine Learning",
+      summary: "Cientista da Computação com especialização em Inteligência Artificial e Machine Learning. Possuo sólido conhecimento em engenharia de software vindo da minha formação e experiência na IBM Research. Minha atuação foca em unir modelagem estatística à engenharia de sistemas, com experiência prática em Machine Learning, pipelines RAG e otimização de inferência.",
       contact: [
         { label: "Github", link: "https://github.com/gmarinho2", type: "github" },
         { label: "Linkedin", link: "https://linkedin.com/in/gmarinho2", type: "linkedin" },
@@ -18,35 +18,37 @@ export const content = {
         role: "Engenheiro de IA",
         period: "Janeiro 2026 - Presente",
         points: [
-          "Membro do time Watsonx Inference, implementando abordagens de inferência para o chip Spyre.",
-          "Desenvolvimento de engines de inferência de alto throughput para minimizar latência em produção.",
-          "Gerenciamento de aplicações cloud-native com Kubernetes, cuidando de pods e recursos.",
-          "Arquitetura de pipeline RAG ponta a ponta com ingestão, chunking e banco de dados vetorial.",
-          "Implementação de suítes de testes End-to-End (E2E) e análise estatística de benchmarks."
+          "Arquitetando e realizando o deploy de sistemas de IA em produção na AWS, utilizando SageMaker e Lambda para inferência escalável.",
+          "Implementando fluxos inteligentes de processamento de documentos utilizando OCR e LLMs (OpenAI/Anthropic) para extrair e estruturar dados complexos em bancos de dados relacionais.",
+          "Desenvolvendo arquiteturas RAG avançadas (GraphRAG e fluxos Agentic baseados em LangGraph) integradas via APIs REST para interação em tempo real.",
+          "Otimizando a confiabilidade de LLMs através de engenharia de prompts, saídas estruturadas em JSON e camadas de validação programática.",
+          "Projetando arquiteturas de integração de API com mecanismos de fallback automatizados e lógica de retry para garantir alta disponibilidade durante falhas de provedores.",
+          "Desenvolvendo pipelines de dados robustos e backends de IA utilizando LangChain, PyTorch e Pandas para automatizar fluxos de negócios complexos."
         ]
       },
       {
         company: "Surfconnect (Contrato)",
-        role: "Engenheiro de Machine Learning", 
-        period: "Janeiro 2026 - Março 2026", 
+        role: "Engenheiro de Machine Learning",
+        period: "Janeiro 2026 - Março 2026",
         points: [
-          "Desenvolvi um pipeline de Visão Computacional em tempo real para detecção e rastreamento de objetos em vídeo.", 
-          "Implementei algoritmos de rastreamento de alta precisão com foco em consistência temporal e persistência de ID em ambientes externos dinâmicos.", 
+          "Desenvolvi um pipeline de Visão Computacional em tempo real para detecção e rastreamento de objetos em vídeo (720p) via protocolos RTSP/HLS.",
+          "Implementei algoritmos de rastreamento de alta precisão com foco em consistência temporal e persistência de ID em ambientes externos dinâmicos.",
           "Realizei a curadoria e o gerenciamento de datasets anotados em larga escala para garantir a robustez do modelo em diversas condições ambientais.",
-          "Implementei lógica de visualização otimizada para bounding boxes e trajetórias, especializada no monitoramento de objetos a longo prazo.", 
-          "Otimizei pipelines de inferência para alto desempenho em hardware limitado apenas por CPU.",
+          "Implementei lógica de visualização otimizada para bounding boxes e trajetórias, especializada no monitoramento de objetos a longo prazo.",
+          "Otimizei pipelines de inferência para alto desempenho em hardware limitado apenas por CPU."
         ]
-      },  
+      },
       {
         company: "IBM Research",
-        role: "Estagiário em Engenharia de Software e IA",
+        role: "Estagiário em Engenharia de Software",
         period: "Dezembro 2024 - Janeiro 2026",
         points: [
-          "Membro do time Watsonx Inference, implementando abordagens de inferência para o chip Spyre.",
-          "Desenvolvimento de engines de inferência de alto throughput para minimizar latência em produção.",
-          "Gerenciamento de aplicações cloud-native com Kubernetes, cuidando de pods e recursos.",
-          "Arquitetura de pipeline RAG ponta a ponta com ingestão, chunking e banco de dados vetorial.",
-          "Implementação de suítes de testes End-to-End (E2E) e análise estatística de benchmarks."
+          "Membro do time Watsonx Inference, implementando abordagens inovadoras de inferência de IA para o chip Spyre.",
+          "Desenvolvimento de engines de inferência de alto throughput para minimizar latência para alto volume de usuários simultâneos.",
+          "Gerenciamento de ciclos de vida de pods e alocação de recursos usando Kubernetes para aplicações cloud-native escaláveis.",
+          "Arquitetura de pipeline RAG ponta a ponta englobando ingestão, chunking e integração com bancos de dados vetoriais.",
+          "Implementação de suítes de testes End-to-End (E2E) para garantir a qualidade dos dados e a confiabilidade do serviço.",
+          "Contribuição para o projeto open-source vLLM e colaboração diária em equipe global utilizando inglês como língua principal."
         ]
       },
       {
@@ -55,7 +57,7 @@ export const content = {
         period: "Janeiro 2024 - Outubro 2024",
         points: [
           "Desenvolvimento da API backend para digitalização do registro de assistidos.",
-          "Redução drástica no tempo de processamento de informações através da migração para digital.",
+          "Redução drástica no tempo de processamento de informações através da migração para sistemas digitais.",
           "Modelagem de banco de dados relacional e implementação de lógica de negócio escalável.",
           "Stack focada em TypeScript, AdonisJS e PostgreSQL."
         ]
@@ -66,59 +68,51 @@ export const content = {
       {
         project: "vLLM",
         role: "Contribuidor",
-        description: "Otimização de inferência e suporte para hardware específico (IBM Spyre). Implementação de testes e features para acelerar a inferência de LLMs.",
+        description: "Otimização de inferência e suporte para hardware específico (IBM Spyre). Implementação de testes e funcionalidades para acelerar a inferência de LLMs.",
         link: "https://github.com/vllm-project/vllm"
       }
     ],
     academicTitle: "Formação & Pesquisa",
     academic: [
       {
-        uni: "UFRRJ",
-        education: "Bacharelado em Ciência da Computação",
+        uni: "Universidade Federal Rural do Rio de Janeiro (UFRRJ)",
+        education: "Bacharelado em Ciência da Computação (Ênfase em IA)",
         period: "2022 - 2025",
         points: [
-          "Especialização em Data Mining e AI.",
-          {text: "Pesquisa de conclusão em Avaliação e Implementação de Sistemas RAG.", link: "https://filipe.braida.com.br/monografias/braida_gabriel_sylvino.pdf"},
-          { text: "Artigo publicado sobre simulação de N-corpos e HPC (CUDA/OpenMP) - ERAD-RJ 2024.", link: "https://github.com/gmarinho2" }
+          "Especialização acadêmica em Inteligência Artificial e Data Mining.",
+          { text: "Artigo publicado: 'Parallel Architectures and the N-body Simulation' (ERAD-RJ 2024) - Pesquisa em HPC/CUDA.", link: "#" },
+          { text: "Pesquisa de conclusão: Avaliação e Implementação de Sistemas RAG.", link: "https://filipe.braida.com.br/monografias/braida_gabriel_sylvino.pdf" }
         ]
       }
     ],
     projectsTitle: "Projetos de Engenharia de Software e IA",
     projects: [
       {
-        name: "DataCorners (Sports Analytics)",
-        description: "Desenvolvimento de modelo preditivo híbrido (Ensemble) para resultados de partidas de futebol. Construção de um pipeline completo de dados usando a arquitetura Medallion. Uso de melhores práticas de MLOps como model tracking",
-        result: "Aumento de 37% na acurácia sobre o modelo de redes neurais base (68.5% de precisão final no Brasileirão 2025).",
+        name: "PraiaLivre (Visão Computacional)",
+        description: "Sistema de visão computacional para monitoramento em tempo real da densidade populacional em praias. Uso de SAHI para detecção de pequenos objetos em imagens de alta resolução. Orquestração de microsserviços com FastAPI e Docker.",
+        result: "Lançamento previsto para o Verão de 2026; Modelos de previsão de séries temporais em desenvolvimento.",
         link: "https://github.com/gmarinho2"
       },
       {
-        name: "PraiaLivre (Visão Computacional)",
-        description: "Sistema de visão computacional para monitoramento inteligente da densidade das praias do Rio de Janeiro. Desenvolvimento da API do backend. Orquestração dos serviços (banco de dados, IA, coleta de dados) usando Docker.",
-        result: "No futuro: previsão de lotação de praias",
+        name: "DataCorners (Sports Analytics)",
+        description: "Modelo Ensemble Híbrido (Gradient Boosting + Redes Neurais) com Arquitetura Medallion (Bronze/Silver/Gold) para processamento de dados esportivos. Gerenciamento do ciclo de vida de ML com MLflow.",
+        result: "Atingiu 68,5% de acurácia (37% de melhoria) nas previsões do Campeonato Brasileiro de 2025.",
         link: "https://github.com/gmarinho2"
-      },
+      }
     ],
     studiesTitle: "Aprendendo Fazendo",
     studies: [
-      { 
-        name: "NAS (Otimização de Arquiteturas)", 
-        tech: "Python", 
-        description: "Implementação de Têmpera Simulada e Algoritmos Genéticos para encontrar arquiteturas otimizadas de redes neurais (camadas e taxa de aprendizado).", 
-        link: "https://github.com/gmarinho2/topicos-especiais-otimizacao" 
-      },
-      { name: "Mineração de Dados em Análise de Crédito", tech: "Python & Pandas", description: "Aplicação de mineração de regras para análise de perfis de clientes.", link: "https://github.com/gmarinho2/data-mining/blob/main/analise-de-credito/analise-de-credito.ipynb" },
-      { name: "Clusterização Estelar", tech: "Python & Scikit-learn", description: "Aplicação de técnicas de aprendizagem não supervisionada (K-Means/Hierárquica) para classificação de estrelas baseada em propriedades físicas.", link: "https://github.com/gmarinho2/data-mining/blob/main/star-clustering/Clusteriza%C3%A7%C3%A3o.ipynb" },
-      { name: "Compilador GALM", tech: "C++", description: "Desenvolvimento de um compilador completo para uma linguagem customizada.", link: "https://github.com/gmarinho2/compilador-galm" },
-      { name: "Análise da Industrialização", tech: "Python & Pandas", description: "Estudo estatístico da industrialização do Brasil entre 2010 e 2021.", link: "https://github.com/gmarinho2/data-mining/blob/main/industrializacao-brasil/analise-da-industrializacao-brasileira.ipynb" },
-      { name: "Sistema de Recomendação", tech: "Python", description: "Algoritmo de filtragem para recomendação personalizada de filmes.", link: "#" },
-      { name: "Sem Clubismo FC", tech: "AdonisJS & PostgreSQL", description: "Sistema focado em performance backend e gestão de estados.", link: "https://github.com/gmarinho2/e-commerce" }
+      { name: "Análise da Industrialização do Brasil", tech: "Python & Pandas", description: "Estudo estatístico sobre os setores industriais brasileiros (2010-2021).", link: "#" },
+      { name: "Mineração de Regras em Análise de Crédito", tech: "Python", description: "Aplicação de algoritmos de mineração para perfis financeiros.", link: "#" },
+      { name: "Compilador GALM", tech: "C++", description: "Desenvolvimento de um compilador completo para linguagem customizada.", link: "https://github.com/gmarinho2/compilador-galm" },
+      { name: "Clusterização Estelar", tech: "Python & Scikit-learn", description: "Aprendizagem não supervisionada para classificação de estrelas.", link: "#" }
     ],
     skillsTitle: "Tech Stack",
     skills: [
-      { category: "AI Engineering & Inference", items: ["vLLM",  "Model Quantization"] },
-      { category: "Data Science & Analytics", items: ["Pandas", "Scikit-learn", "Estatística", "Data Mining", "Apache Spark"] },
-      { category: "GenAI & LLMOps", items: ["LangChain/LangGraph", "Ragas (Evaluation)", "PostgreSQL (pgvector)", "Neo4j", "Kubernetes", "Docker"] },
-      { category: "Linguagens de programação", items: ["Python", "C/C++", "SQL", "Typescript", "Java"] }
+      { category: "IA & Engenharia de LLM", items: ["LLMs (vLLM, LangChain)", "LangGraph", "RAG/GraphRAG", "OCR", "OpenAI/Anthropic APIs"] },
+      { category: "Dados & API", items: ["FastAPI/Flask", "PostgreSQL", "Redis", "Bancos Vetoriais", "Pandas", "JSON Structured Outputs"] },
+      { category: "Nuvem & Infra", items: ["AWS (SageMaker, Lambda, S3)", "Kubernetes", "Docker", "CI/CD", "Linux"] },
+      { category: "Linguagens", items: ["Python", "SQL", "C/C++", "TypeScript", "Java", "JavaScript"] }
     ],
     languagesTitle: "Idiomas",
     languages: ["Português (Nativo)", "Inglês (Fluente)", "Espanhol (Básico)"]
@@ -127,15 +121,14 @@ export const content = {
     themeToggle: { light: "Light", dark: "Dark" },
     personalInfo: {
       name: "GABRIEL MARINHO DE SOUZA",
-      role: "Machine Learning & AI Engineer",
-      summary: "Computer Scientist with a specialization in Artificial Intelligence and Data Science. I have solid software engineering knowledge from my academic background and experience at IBM Research. My work focuses on bridging statistical modeling and systems engineering, with practical experience in Machine Learning, RAG pipelines, and inference optimization.",
+      role: "Machine Learning and AI Engineer",
+      summary: "Computer Scientist with a specialization in AI Engineering and Machine Learning. I have solid software engineering knowledge from my academic background and experience at IBM Research. My work focuses on bridging statistical modeling and systems engineering, with practical experience in Machine Learning, RAG pipelines, and inference optimization.",
       contact: [
         { label: "Github", link: "https://github.com/gmarinho2", type: "github" },
         { label: "Linkedin", link: "https://linkedin.com/in/gmarinho2", type: "linkedin" },
         { label: "Email", link: "mailto:gabrielmarinho910@gmail.com", type: "email" }
       ]
     },
-
     experienceTitle: "Professional Experience",
     experiences: [
       {
@@ -153,26 +146,27 @@ export const content = {
       },
       {
         company: "Surfconnect (Contract)",
-        role: "Machine Learning Engineer", 
-        period: "January 2026 - March 2026", 
+        role: "Machine Learning Engineer",
+        period: "January 2026 - March 2026",
         points: [
-          "Engineered a real-time Computer Vision pipeline for object detection and tracking in low resolution video streams.", 
-          "Developed high-precision tracking algorithms focused on temporal consistency and ID persistence for dynamic outdoor environments.", 
-          "Curated and managed large-scale annotated datasets with balanced distributions to ensure model robustness across diverse environmental conditions.", 
-          "Implemented optimized visualization logic for bounding boxes and trajectories, specialized in long-term object monitoring.", 
-          "Optimized inference pipelines for high-throughput processing on resource-constrained CPU-only hardware.", 
+          "Engineered a real-time Computer Vision pipeline for object detection and tracking in high-resolution (720p) video streams using RTSP/HLS protocols.",
+          "Developed high-precision tracking algorithms focused on temporal consistency and ID persistence for dynamic outdoor environments.",
+          "Curated and managed large-scale annotated datasets with balanced distributions to ensure model robustness across diverse environmental conditions.",
+          "Implemented optimized visualization logic for bounding boxes and trajectories, specialized in long-term object monitoring.",
+          "Optimized inference pipelines for high-throughput processing on resource-constrained CPU-only hardware."
         ]
       },
       {
         company: "IBM Research",
-        role: "Software Engineering & AI Intern",
+        role: "Software Engineering Intern",
         period: "December 2024 - January 2026",
         points: [
-          "Member of the Watsonx Inference team, implementing inference approaches for the Spyre chip.",
-          "Development of high-throughput inference engines to minimize production latency.",
-          "Managed cloud-native applications with Kubernetes, handling pods and resources.",
-          "End-to-end RAG pipeline architecture including ingestion, chunking, and vector database.",
-          "Implementation of End-to-End (E2E) test suites and statistical benchmark analysis."
+          "Member of the Watsonx Inference team, implementing novel AI inference approaches for the Spyre chip.",
+          "Developed high-throughput inference engines to minimize latency for high-volume concurrent users.",
+          "Managed pod lifecycles and resource allocation using Kubernetes for scalable cloud-native apps.",
+          "Architected an end-to-end RAG data pipeline handling ingestion, chunking, and vector DB integration.",
+          "Implemented End-to-End (E2E) testing suites to ensure data quality and service reliability.",
+          "Collaborating daily with a global team using English as first language and contributing to vLLM project."
         ]
       },
       {
@@ -199,52 +193,45 @@ export const content = {
     academicTitle: "Education & Research",
     academic: [
       {
-        uni: "UFRRJ",
-        education: "Bachelor's degree in Computer Science",
+        uni: "Universidade Federal Rural do Rio de Janeiro (UFRRJ)",
+        education: "Bachelor of Computer Science (AI Emphasis)",
         period: "2022 - 2025",
         points: [
-          "Specialization in Data Mining and AI.",
-          {text: "Graduation research on Evaluation and Implementation of RAG Systems.", link: "https://filipe.braida.com.br/monografias/braida_gabriel_sylvino.pdf"},
-          { text: "Paper on N-body simulation and HPC (CUDA/OpenMP) - ERAD-RJ 2024.", link: "https://github.com/gmarinho2" }
+          "Academic focus on Artificial Intelligence and Software Engineering.",
+          { text: "Published Paper: 'Parallel Architectures and the N-body Simulation' (ERAD-RJ 2024) - HPC/CUDA Research.", link: "#" },
+          { text: "Thesis: Evaluation and Implementation of RAG Systems.", link: "https://filipe.braida.com.br/monografias/braida_gabriel_sylvino.pdf" }
         ]
       }
     ],
     projectsTitle: "Software Engineering and AI Projects",
     projects: [
       {
-        name: "DataCorners (Sports Analytics)",
-        description: "Developed a hybrid ensemble model for football match predictions. Engineered an end-to-end data pipeline using Medallion architecture (Bronze, Silver, Gold). Applied MLOps best practices, focusing on model tracking and experiment reproducibility.",
-        result: "37% accuracy increase over the baseline neural network model (68.5% precision in Brasileirão 2025).",
+        name: "PraiaLivre (Computer Vision)",
+        description: "Real-time crowd monitoring system. Used SAHI for small object detection in high-resolution footage. Orchestrated microservices with FastAPI and Docker.",
+        result: "Launch: Summer 2026; Time-series forecasting models for beach density trends in development.",
         link: "https://github.com/gmarinho2"
       },
       {
-        name: "PraiaLivre (Computer Vision)",
-        description: "Computer vision system for smart monitoring of beach crowd density in Rio de Janeiro. Engineered the backend API and orchestrated the service stack (database, AI models, and data ingestion) using Docker.",
-        result: "Soon: density prediction",
+        name: "DataCorners (Sports Analytics)",
+        description: "Hybrid Ensemble Model (Gradient Boosting + Neural Networks) using Medallion Architecture for data processing. Managed ML lifecycle with MLflow.",
+        result: "Achieved 68.5% accuracy (37% uplift) in match outcome predictions for the 2025 Brazilian League.",
         link: "https://github.com/gmarinho2"
       }
     ],
+    // projects and link ()
     studiesTitle: "Learning by Doing",
     studies: [
-      { name: "Credit Analysis Rule Mining", tech: "Python & Pandas", description: "Applying rule mining for customer profile analysis.", link: "https://github.com/gmarinho2/data-mining/blob/main/analise-de-credito/analise-de-credito.ipynb" },
-      { name: "Stellar Clustering", tech: "Python & Scikit-learn", description: "Implementation of unsupervised learning techniques (K-Means/Hierarchical) for stellar classification based on physical properties.", link: "https://github.com/gmarinho2/data-mining/blob/main/star-clustering/Clusteriza%C3%A7%C3%A3o.ipynb" },
-      { name: "Industrialization Analysis", tech: "Python & Pandas", description: "Statistical study of Brazil's industrialization (2010-2021).", link: "https://github.com/gmarinho2/data-mining/blob/main/industrializacao-brasil/analise-da-industrializacao-brasileira.ipynb" },
-      { 
-        name: "Neural Architecture Search (NAS)", 
-        tech: "Python", 
-        description: "Implementation of Simulated Annealing and Genetic Algorithms to optimize neural network architectures, tuning layer depth and learning rates.", 
-        link: "https://github.com/gmarinho2/topicos-especiais-otimizacao" 
-      },
-      { name: "GALM Compiler", tech: "C++", description: "Development of a full compiler for a custom language.", link: "https://github.com/gmarinho2/compilador-galm" },
-      { name: "Recommendation System", tech: "Python", description: "Filtering algorithm for personalized movie recommendations.", link: "#" },
-      { name: "Sem Clubismo FC", tech: "AdonisJS & PostgreSQL", description: "System focused on backend performance and state management.", link: "https://github.com/gmarinho2/e-commerce" }
+      { name: "Brazil Industrialization Analysis", tech: "Python & Pandas", description: "Statistical study on Brazilian industrial sectors (2010-2021).", link: "https://www.linkedin.com/posts/gmarinho2_datascience-machinelearning-python-activity-7415739205815017472-Ltgf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8RQqwBxEdKpiycXtNkJmd-1yArwBD_X8g" },
+      { name: "Rule Mining in Credit Analysis", tech: "Python", description: "Data mining application for financial profiles.", link: "https://www.linkedin.com/posts/gmarinho2_datascience-machinelearning-fpgrowth-activity-7417955047222951936-lsqf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8RQqwBxEdKpiycXtNkJmd-1yArwBD_X8g" },
+      { name: "GALM Compiler", tech: "C++", description: "Development of a full compiler from scratch.", link: "https://github.com/gmarinho2/compilador-galm" },
+      { name: "Stellar Clustering", tech: "Python & Scikit-learn", description: "Unsupervised learning for stellar classification.", link: "https://www.linkedin.com/in/gmarinho2/details/projects/" }
     ],
     skillsTitle: "Tech Stack",
     skills: [
-      { category: "AI Engineering & Inference", items: ["vLLM",  "Model Quantization"] },
-      { category: "Data Science & Analytics", items: ["Pandas", "Scikit-learn", "Statistics", "Data Mining", "Apache Spark"] },
-      { category: "GenAI & LLMOps", items: ["LangChain/LangGraph", "Ragas (Evaluation)", "PostgreSQL (pgvector)", "Neo4j", "Kubernetes", "Docker"] },
-      { category: "Programming Languages", items: ["Python", "C/C++", "SQL", "Typescript", "Java"] }
+      { category: "AI & LLM Engineering", items: ["LLMs (vLLM, LangChain)", "LangGraph", "RAG/GraphRAG", "OCR", "OpenAI/Anthropic APIs"] },
+      { category: "Data & API", items: ["FastAPI/Flask", "PostgreSQL", "Vector DBs", "Pandas", "JSON Structured Outputs"] },
+      { category: "Cloud & Infra", items: ["AWS (SageMaker, Lambda, S3)", "Kubernetes", "Docker", "CI/CD", "Linux"] },
+      { category: "Languages", items: ["Python", "SQL", "C/C++", "TypeScript", "Java", "JavaScript"] }
     ],
     languagesTitle: "Languages",
     languages: ["Portuguese (Native)", "English (Fluent)", "Spanish (Basic)"]
